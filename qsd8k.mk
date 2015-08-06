@@ -46,6 +46,9 @@ PRODUCT_PACKAGES += \
     audio.primary.qsd8k \
     audio_policy.qsd8k
 
+# Block
+BLOCK_BASED_OTA := false
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.qsd8k
