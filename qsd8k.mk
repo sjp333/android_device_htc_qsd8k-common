@@ -23,6 +23,9 @@ PRODUCT_LOCALES := en
 PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
+# Bionic
+TARGET_NEEDS_NON_PIE_SUPPORT := true
+
 # Configs
 PRODUCT_COPY_FILES += \
     device/htc/qsd8k-common/media_codecs.xml:system/etc/media_codecs.xml \
