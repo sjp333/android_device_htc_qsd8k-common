@@ -114,3 +114,6 @@ TW_NO_SCREEN_BLANK := true
 TW_EXCLUDE_ENCRYPTED_BACKUPS := true
 TW_USE_TOOLBOX := true
 TW_EXCLUDE_SUPERSU := true
+
+# Skip set_metadata
+SKIP_SET_METADATA := true
