@@ -117,3 +117,6 @@ TW_EXCLUDE_SUPERSU := true
 
 # Skip set_metadata
 SKIP_SET_METADATA := true
+
+# Boot animation
+TARGET_BOOTANIMATION_HALF_RES := true
