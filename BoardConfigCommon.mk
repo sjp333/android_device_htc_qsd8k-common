@@ -25,6 +25,7 @@ TARGET_NO_BOOTLOADER := true
 # QSD8250
 TARGET_BOARD_PLATFORM := qsd8k
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno200
+BOARD_USES_QCOM_HARDWARE := true
 
 # Arm (v7a) w/ neon
 TARGET_ARCH := arm
@@ -114,3 +115,9 @@ TW_NO_SCREEN_BLANK := true
 TW_EXCLUDE_ENCRYPTED_BACKUPS := true
 TW_USE_TOOLBOX := true
 TW_EXCLUDE_SUPERSU := true
+
+# Skip set_metadata
+SKIP_SET_METADATA := true
+
+# Boot animation
+TARGET_BOOTANIMATION_HALF_RES := true
